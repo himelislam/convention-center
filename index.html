@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convention Center</title>
+    <title>Amani Convention Center</title>
+    <link rel="icon" href="logo/logo-icon.png">
     <!-- Custom Css  -->
     <link rel="stylesheet" href="custom-css/styles.css">
 
@@ -17,13 +18,14 @@
         <section class="container">
             <nav class="navbar navbar-light bg-white">
                 <div class="container-fluid">
-                  <span class="navbar-brand my-3 h1 fw-bold fs-4 font-secendory">Amani Convention Center</span>
-                </div>
+                  <span class="navbar-brand my-3 h1 fw-bold fs-4 font-secendory ">Amani Convention Center</span>
+                </div> 
             </nav>
         </section>
         <!-- Navbar End -->
         
         <!-- Photo Slide Start -->
+
         <section class="container-fluid">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -31,31 +33,39 @@
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+
+            <!-- First Slide  -->
+
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="images/banner.png" class="d-block" alt="...">
                     <div class="carousel-caption d-md-block mb-4 ">
-                      <h1 class="fs-1">The perfect venue for your <br>
-                        next event</h1>
-                      <p class="fw-lighte">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit </p>
+                      <h1 class="fs-1">WELCOME TO THE AMANI CONVENTION CENTER</h1>
+                      <p class="fw-lighte">Eastern North Sylhet's Largest and Most Flexible Event and Meeting Center. The Amani Convention Center is the region's largest, most dynamic event space.</p>
                       <button class="btn btn-light text-primary fw-bold"><a class="text-decoration-none px-4 py-2" href="">BOOK NOW</a></button>
                     </div>
                   </div>
+
+            <!-- Seconed Slide  -->
+                
                   <div class="carousel-item">
                     <img src="images/banner-2.png" class="d-block" alt="...">
                     <div class="carousel-caption d-md-block mb-4">
-                        <h1 class="fs-1">The perfect venue for your <br>
-                            next event</h1>
-                          <p class="fw-lighte">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit </p>
+                        <h1 class="fs-1">THE PERFECT VANUE FOR YOUR<br>
+                            NEXT EVENT</h1>
+                          <p class="fw-lighte">With over 91,000 sq. ft. of flexible event space, the campus can accommodate everything from small company gatherings and functions to large scale trade shows and events.</p>
                           <button class="btn btn-light text-primary fw-bold"><a class="text-decoration-none px-4 py-2" href="">BOOK NOW</a></button>
                     </div>
                   </div>
+
+            <!-- Third Slide  -->
+            
                   <div class="carousel-item">
                     <img src="images/banner-3.png" class="d-block" alt="...">
                     <div class="carousel-caption d-md-block mb-4">
-                        <h1 class="fs-1">The perfect venue for your <br>
-                            next event</h1>
-                          <p class="fw-lighte">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit </p>
+                        <h1 class="fs-1">THE FACILITY |
+                            SETTING THE STAGE FOR AN INSPIRING EXPERIENCE</h1>
+                          <p class="fw-lighte">Our experienced event planning staff can help you with the finer details and leverage area contacts to ensure your event is as seamless and well-prepared as it possibly can be.</p>
                           <button class="btn btn-light text-primary fw-bold"><a class="text-decoration-none px-4 py-2" href="">BOOK NOW</a></button>
                     </div>
                   </div>
@@ -73,51 +83,48 @@
         <!-- Photo Slide End -->
     </header>
     <main>
-        <!-- Feature section -->
-        <button type="button" class="btn btn-primary text-center" id="liveToastBtn">Show live toast</button>
-
-                <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
-                    <div id="liveToast" class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="d-flex">
-                          <div class="toast-body">
-                              <img src="icons/Vector.svg" alt="">
-                              20% off on next booking
-                         </div>
-                          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-                        </div>
-                      </div>
+        <!-- Toast -->
+        <div class="toast show align-items-center" role="alert" aria-live="assertive"aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    <img class="ms-2 me-2" src="icons/Vector.svg" alt="">
+                    <span>20% off on next booking!! book now!</span>
                 </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"><button>
+            </div>
+        </div>
+
+        <!-- Feature section Start -->
 
         <section class="container mt-4">
-            <br>
             <h1 class="text-center mt-4 mb-4 my-3 h1 fw-bold font-first">Feature Hall</h1>
-            <p class="fw-lighte text-center mb-4 font-third">There are many variations of passages of Lorem Ipsum available <br> but the at majority have suffered alteration in some dummy</p>
+            <p class="fw-lighte text-center mb-4 font-third">With more than 466,500 ft2 (43,340 m2) of highly flexible function space, our facility spans two buildings and is designed to be configured to meet the needs of any event you can imagine.</p>
             <br>
                 <div class="row ">
                     <div class="col-lg-4 col-sm-12">
-                        <div class="card shadow-lg mb-5 bg-body rounded border-0">
+                        <div class="card shadow mb-5 bg-body rounded border-0">
                             <img src="images/hall-1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h2 class="text-center my-3 h1 fw-bold fs-4 font-secendory">Panorama Hall 1</h2>
-                              <p class="card-text font-third fw-lighte">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h2 class="text-center my-3 h1 fw-bold fs-4 font-primary">Panorama Hall 1</h2>
+                              <p class="card-text font-third fw-lighte">We can provide a wide range of outside catering to suit your personal needs. This could range from a simple business lunch to large event catering. All of our outside catering is made to the same standard that our customers have come to expect from our day delegate conferencing. </p>
                             </div>
                           </div>
                     </div>
                     <div class="col-lg-4 col-sm-12">
-                        <div class="card shadow-lg mb-5 bg-body rounded border-0">
+                        <div class="card shadow mb-5 bg-body rounded border-0">
                             <img src="images/hall-2.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h2 class="text-center my-3 h1 fw-bold fs-4 font-secendory">Panorama Hall 2</h2>
-                              <p class="card-text font-third fw-lighte">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <h2 class="text-center my-3 h1 fw-bold fs-4 font-primary">Panorama Hall 2</h2>
+                              <p class="card-text font-third fw-lighte">We can provide a wide range of outside catering to suit your personal needs. This could range from a simple business lunch to large event catering. All of our outside catering is made to the same standard that our customers have come to expect from our day delegate conferencing. </p>
                             </div>
                           </div>
                     </div>
                     <div class="col-lg-4 col-sm-12">
-                        <div class="card shadow-lg mb-5 bg-body rounded border-0">
+                        <div class="card shadow mb-5 bg-body rounded border-0">
                             <img src="images/hall-1.jpg" class="card-img-top" alt="...">
                             <div class="card-body font-third fw-lighte">
-                              <h2 class="text-center my-3 h1 fw-bold fs-4 font-secendory">Panorama Hall 3</h2>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <h2 class="text-center my-3 h1 fw-bold fs-4 font-primary">Panorama Hall 3</h2>
+                              <p class="card-text">We can provide a wide range of outside catering to suit your personal needs. This could range from a simple business lunch to large event catering. All of our outside catering is made to the same standard that our customers have come to expect from our day delegate conferencing. </p>
                             </div>
                           </div>
                     </div>
@@ -130,7 +137,7 @@
             <br>
             <h1 class="text-center mt-4 mb-4 my-3 h1 fw-bold font-first">Our Package</h1>
             <br>
-            <div class="mt-4">
+            <div class="mt-2">
                 <div class="row">
                     <div class="col-lg-3 mt-5  col-sm-12">
                         <div class="p-2">
@@ -334,38 +341,60 @@
             </div>
         </section>
         <br>
+        <!-- Asked Question Section End  -->
+
+        <!-- Location Section Start  -->
+        <section class="container mb-5">
+            <br>
+            <h1 class="text-center mt-5 mb-4 my-3 h1 fw-bold font-first">Our Location</h1>
+            <br>
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-6 col-sm-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6300.485921151558!2d91.84885030016963!3d24.908943126496816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37505522233e7b5d%3A0xd3bb89e55e48641c!2sAmani%20Convention%20Center!5e0!3m2!1sen!2sbd!4v1643023893487!5m2!1sen!2sbd" width="600" height="400" style="border:0;" class="rounded w-100" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-lg-6 col-sm-12 mt-2">
+                    <h2 class="text-center mt-4 mb-4 my-3 h2 fw-bold font-first">Amani Convention Center</h2>
+                    <h3><Address class="text-center mt-4 mb-4 my-3 h4 font-secendory">Address: Sylhet - Sunamganj Highway, Sylhet</Address></h3>
+                    <h4 class="text-center mt-4 mb-4 my-3 h5 fw-bold font-secendory">Hours: Open ⋅ Closes 10:30PM</h4>
+                    <p class="text-center mt-4 mb-4 my-3 h6 fw-semibold font-secendory">Phone: 01700-000000</p>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Footer Section Start  -->
+
     <footer>
-        <div class="container-fluid bg-footer">
+        <div class="container-fluid bg-footer py-5">
             <div class="container">
-                <div class="d-flex align-items-center justify-content-between flex-nowrap"  style="height: 240px;">
-                    <div class="">
-                        <p class="text-white">© 2020 bike. All rights reserved</p>
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-sm-12">
+                        <p class="text-white text-center">© 2020 bike. All rights reserved</p>
                     </div>
-                    <div class="">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3 col-sm-12 text-center">
                         <h3 class="text-white">Get the App</h3>
-                        <a href=""><img class="mb-3" src="icons/App Store Badge.png" alt=""></a>
+                        <a href="https://www.apple.com/app-store/" target="_blank"><img class="mb-3" src="icons/App Store Badge.png" alt=""></a>
                         <br>
-                        <a href=""><img src="icons/Google Play Badge.png" alt=""></a>
+                        <a href="https://store.google.com/regionpicker" target="_blank"><img src="icons/Google Play Badge.png" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- Footer Section End  -->
+
     <!-- Bootstrap Js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- Custom Script  -->
-    <script>
-                var toastTrigger = document.getElementById('liveToastBtn')
-        var toastLiveExample = document.getElementById('liveToast')
-        if (toastTrigger) {
-        toastTrigger.addEventListener('click', function () {
-            var toast = new bootstrap.Toast(toastLiveExample)
-
-            toast.show()
-        })
+     <!-- This script makes the toast working -->
+     <script>
+        window.onload = (e) => {
+            let myToast = document.querySelector('.toast');
+            let bsToast = new bootstrap.Toast(myToast);
+            bsToast.show();
         }
     </script>
 </body>
